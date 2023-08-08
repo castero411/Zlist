@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Acme&family=Noto+Serif&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/MyProjects/Zlist/public/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form action="/addGoal" method="POST">
@@ -17,7 +17,7 @@
 
         <div class="row">
         <input type="text" name="input" placeholder="ex:Clean room" class="input">
-        <button type="submit" name="submit">Add</button></div>
+        <button type="submit" name="submit" id="btn">Add</button></div>
         </div>
         <ul id="list-container">
             <% goals.forEach((goal) => { %>
